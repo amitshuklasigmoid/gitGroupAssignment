@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 hi i am from jodhpur
 =======
 This content added by ankit
 >>>>>>> 112bbf3 (updated amit2.txt)
+=======
+hello,This content added by ankit
+>>>>>>> 12a6d0b (amit2.txt updated by ankit)
