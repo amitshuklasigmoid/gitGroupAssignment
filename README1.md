@@ -10,7 +10,7 @@ Approach for solving the problem
        first = second = third = -sys.maxsize
 
    - Iterate through all elements of array and updating first, second and third variable depending on the conditions
-    a) Let current array element be x.
+    * Let current array element be x.
     b) If (x > first)
         {
             third = second
