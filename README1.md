@@ -10,24 +10,24 @@ Approach for solving the problem
        first = second = third = -sys.maxsize
 
    - Iterate through all elements of array and updating first, second and third variable depending on the conditions
-    * Let current array element be x.
-    b) If (x > first)
-        {
-            third = second
-            second = first
-            first = x   
-        }
-    c)  Else if (x > second and x != first)
-        {
-            third = second
-            second = x 
-        }
-    d)  Else if (x > third and x != second)
-        {
-            third = x  
-        }
+      - Let current array element be x.
+      - If (x > first)
+           {
+               third = second
+               second = first
+               first = x   
+           }   
+      - Else if (x > second and x != first)
+           {
+               third = second
+               second = x 
+           }
+      - Else if (x > third and x != second)
+           {
+               third = x  
+           }
 
-  - Return first, second and third.
+      - Return first, second and third variables in a list.
 ### test_print3Largest.py file
 1) Created Test_find3Largest, Test_find3Largest_SampleCases classes
 2) Inside Test_find3Largest class, created multiple test cases for handling input file, test cases based on some edge cases like if array size is 0,1,2 or arrays contains non numerical data like characters or float, test case for duplicate elements in array.
